@@ -7,14 +7,18 @@ import BoxColor from './components/BoxColor';
 import CreditCard from './components/CreditCard';
 import Signup from "./components/Signup"
 import Colors from "./components/Colors"
+import Login from "./components/Login"
+import Password from "./components/Password"
 
 function App() {
   return (
     <div>
+<Login />
+<Password /> 
 
 <h1> Welcome </h1>
-{/* <Signup />
-<Colors />  */}
+{/* <Signup /> */}
+ {/* <Colors />  */}
 
       <IdCard
         lastName="Doe"
@@ -52,7 +56,7 @@ function App() {
         owner="Maxence Bouret"
         bgColor="#11aa99"
         color="white"
-      /> */}
+      /> 
     
        <CreditCard
         type="Master Card"
@@ -66,7 +70,7 @@ function App() {
       />
     </div>
     
-  
+   
 
 
   );
