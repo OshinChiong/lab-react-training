@@ -5,10 +5,17 @@ import Greeting from './components/Greeting';
 import Random from './components/Random';
 import BoxColor from './components/BoxColor';
 import CreditCard from './components/CreditCard';
+import Signup from "./components/Signup"
+import Colors from "./components/Colors"
 
 function App() {
   return (
     <div>
+
+<h1> Welcome </h1>
+{/* <Signup />
+<Colors />  */}
+
       <IdCard
         lastName="Doe"
         firstName="John"
@@ -45,9 +52,9 @@ function App() {
         owner="Maxence Bouret"
         bgColor="#11aa99"
         color="white"
-      />
-
-      <CreditCard
+      /> */}
+    
+       <CreditCard
         type="Master Card"
         number="0123456789010995"
         expirationMonth={3}
@@ -59,7 +66,7 @@ function App() {
       />
     </div>
     
-    
+  
 
 
   );
